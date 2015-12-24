@@ -100,47 +100,81 @@ The complete list of variables of each feature vector is available in 'features.
 ### Data Transformation
 After cleanup and transformation of observed data, the following tidy data set is created containing the subject, activity and various mean and standard deviation observations.
 
-* Subject                                                         * Activity
-* FrequencyBodyAccelerometerJerkMeanX                             * TimeBodyAccelerometerJerkStandardDeviationZ
-* FrequencyBodyAccelerometerJerkMeanY	                          * TimeBodyAccelerometerMagnitudeMean
-* FrequencyBodyAccelerometerJerkMeanZ	                          * TimeBodyAccelerometerMagnitudeStandardDeviation
-* FrequencyBodyAccelerometerJerkStandardDeviationX                * TimeBodyAccelerometerMeanX
-* FrequencyBodyAccelerometerJerkStandardDeviationY                * TimeBodyAccelerometerMeanY
-* FrequencyBodyAccelerometerJerkStandardDeviationZ                * TimeBodyAccelerometerMeanZ
-* FrequencyBodyAccelerometerMagnitudeMean	                  * TimeBodyAccelerometerStandardDeviationX
-* FrequencyBodyAccelerometerMagnitudeStandardDeviation            * TimeBodyAccelerometerStandardDeviationY
-* FrequencyBodyAccelerometerMeanX	                          * TimeBodyAccelerometerStandardDeviationZ
-* FrequencyBodyAccelerometerMeanY	                          * TimeBodyGyroscopeJerkMagnitudeMean
-* FrequencyBodyAccelerometerMeanZ	                          * TimeBodyGyroscopeJerkMagnitudeStandardDeviation
-* FrequencyBodyAccelerometerStandardDeviationX	                  * TimeBodyGyroscopeJerkMeanX
-* FrequencyBodyAccelerometerStandardDeviationY	                  * TimeBodyGyroscopeJerkMeanY
-* FrequencyBodyAccelerometerStandardDeviationZ	                  * TimeBodyGyroscopeJerkMeanZ
-* FrequencyBodyBodyAccelerometerJerkMagnitudeMean	          * TimeBodyGyroscopeJerkStandardDeviationX
-* FrequencyBodyBodyAccelerometerJerkMagnitudeStandardDeviation    * TimeBodyGyroscopeJerkStandardDeviationY
-* FrequencyBodyBodyGyroscopeJerkMagnitudeMean	                  * TimeBodyGyroscopeJerkStandardDeviationZ
-* FrequencyBodyBodyGyroscopeJerkMagnitudeStandardDeviation        * TimeBodyGyroscopeMagnitudeMean
-* FrequencyBodyBodyGyroscopeMagnitudeMean                         * TimeBodyGyroscopeMagnitudeStandardDeviation
-* FrequencyBodyBodyGyroscopeMagnitudeStandardDeviation            * TimeBodyGyroscopeMeanX
-* FrequencyBodyGyroscopeMeanX                                     * TimeBodyGyroscopeMeanY
-* FrequencyBodyGyroscopeMeanY                                     * TimeBodyGyroscopeMeanZ
-* FrequencyBodyGyroscopeMeanZ                                     * TimeBodyGyroscopeStandardDeviationX
-* FrequencyBodyGyroscopeStandardDeviationX                        * TimeBodyGyroscopeStandardDeviationY
-* FrequencyBodyGyroscopeStandardDeviationY                        * TimeBodyGyroscopeStandardDeviationZ
-* FrequencyBodyGyroscopeStandardDeviationZ                        * TimeGravityAccelerometerMagnitudeMean
-* TimeBodyAccelerometerJerkMagnitudeMean                          * TimeGravityAccelerometerMagnitudeStandardDeviation
-* TimeBodyAccelerometerJerkMagnitudeStandardDeviation             * TimeGravityAccelerometerMeanX
-* TimeBodyAccelerometerJerkMeanX                                  * TimeGravityAccelerometerMeanY
-* TimeBodyAccelerometerJerkMeanY                                  * TimeGravityAccelerometerMeanZ
-* TimeBodyAccelerometerJerkMeanZ                                  * TimeGravityAccelerometerStandardDeviationX
-* TimeBodyAccelerometerJerkStandardDeviationX                     * TimeGravityAccelerometerStandardDeviationY
-* TimeBodyAccelerometerJerkStandardDeviationY                     * TimeGravityAccelerometerStandardDeviationZ
+* Subject                                                         
+* Activity
+* FrequencyBodyAccelerometerJerkMeanX                             
+* TimeBodyAccelerometerJerkStandardDeviationZ
+* FrequencyBodyAccelerometerJerkMeanY	                          
+* TimeBodyAccelerometerMagnitudeMean
+* FrequencyBodyAccelerometerJerkMeanZ	                          
+* TimeBodyAccelerometerMagnitudeStandardDeviation
+* FrequencyBodyAccelerometerJerkStandardDeviationX                
+* TimeBodyAccelerometerMeanX
+* FrequencyBodyAccelerometerJerkStandardDeviationY                
+* TimeBodyAccelerometerMeanY
+* FrequencyBodyAccelerometerJerkStandardDeviationZ                
+* TimeBodyAccelerometerMeanZ
+* FrequencyBodyAccelerometerMagnitudeMean	                  
+* TimeBodyAccelerometerStandardDeviationX
+* FrequencyBodyAccelerometerMagnitudeStandardDeviation            
+* TimeBodyAccelerometerStandardDeviationY
+* FrequencyBodyAccelerometerMeanX	                          
+* TimeBodyAccelerometerStandardDeviationZ
+* FrequencyBodyAccelerometerMeanY	                          
+* TimeBodyGyroscopeJerkMagnitudeMean
+* FrequencyBodyAccelerometerMeanZ	                          
+* TimeBodyGyroscopeJerkMagnitudeStandardDeviation
+* FrequencyBodyAccelerometerStandardDeviationX	                  
+* TimeBodyGyroscopeJerkMeanX
+* FrequencyBodyAccelerometerStandardDeviationY	                  
+* TimeBodyGyroscopeJerkMeanY
+* FrequencyBodyAccelerometerStandardDeviationZ	                  
+* TimeBodyGyroscopeJerkMeanZ
+* FrequencyBodyBodyAccelerometerJerkMagnitudeMean	          
+* TimeBodyGyroscopeJerkStandardDeviationX
+* FrequencyBodyBodyAccelerometerJerkMagnitudeStandardDeviation    
+* TimeBodyGyroscopeJerkStandardDeviationY
+* FrequencyBodyBodyGyroscopeJerkMagnitudeMean	                  
+* TimeBodyGyroscopeJerkStandardDeviationZ
+* FrequencyBodyBodyGyroscopeJerkMagnitudeStandardDeviation        
+* TimeBodyGyroscopeMagnitudeMean
+* FrequencyBodyBodyGyroscopeMagnitudeMean                         
+* TimeBodyGyroscopeMagnitudeStandardDeviation
+* FrequencyBodyBodyGyroscopeMagnitudeStandardDeviation            
+* TimeBodyGyroscopeMeanX
+* FrequencyBodyGyroscopeMeanX                                     
+* TimeBodyGyroscopeMeanY
+* FrequencyBodyGyroscopeMeanY                                     
+* TimeBodyGyroscopeMeanZ
+* FrequencyBodyGyroscopeMeanZ                                     
+* TimeBodyGyroscopeStandardDeviationX
+* FrequencyBodyGyroscopeStandardDeviationX                        
+* TimeBodyGyroscopeStandardDeviationY
+* FrequencyBodyGyroscopeStandardDeviationY                        
+* TimeBodyGyroscopeStandardDeviationZ
+* FrequencyBodyGyroscopeStandardDeviationZ                        
+* TimeGravityAccelerometerMagnitudeMean
+* TimeBodyAccelerometerJerkMagnitudeMean                          
+* TimeGravityAccelerometerMagnitudeStandardDeviation
+* TimeBodyAccelerometerJerkMagnitudeStandardDeviation             
+* TimeGravityAccelerometerMeanX
+* TimeBodyAccelerometerJerkMeanX                                  
+* TimeGravityAccelerometerMeanY
+* TimeBodyAccelerometerJerkMeanY                                  
+* TimeGravityAccelerometerMeanZ
+* TimeBodyAccelerometerJerkMeanZ                                  
+* TimeGravityAccelerometerStandardDeviationX
+* TimeBodyAccelerometerJerkStandardDeviationX                     
+* TimeGravityAccelerometerStandardDeviationY
+* TimeBodyAccelerometerJerkStandardDeviationY                     
+* TimeGravityAccelerometerStandardDeviationZ
 
 
 ###Notes
 * Inertial Signals are not used during transformation
 * Subject ranges from 1 to 30
 * Activity contains six activities of WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
-* Only Standard Deviation and Mean data are included (i.e. other data including MeanFrequency are dropped from tidy data)
+* Apart from Subject and Activity, tidy data set contains only Standard Deviation and Mean of data from train and test observations (i.e. excluding other data including MeanFrequency)
 * Standard Deviation and Mean data are normalized and bounded within [-1,1]
 
 
